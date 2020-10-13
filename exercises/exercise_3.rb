@@ -9,4 +9,5 @@ puts "----------"
 @store3 = Store.find_by(id: 3)
 @store3.destroy 
 
+
 puts Store.find_by(id: 3)
